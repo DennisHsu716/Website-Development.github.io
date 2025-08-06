@@ -15,8 +15,10 @@ A professional, responsive personal portfolio website built with HTML and CSS, f
 - Clean layout with centered content and responsive design
 
 ### 👤 About Me
-- **Education:** University of Southern California – M.S. in Electrical & Computer Engineering - Machine Learning and Data Science  
-                National Taiwan Ocean University – B.S. in Electrical Engineering
+- **University of Southern California:**
+- **M.S. in Electrical & Computer Engineering - Machine Learning and Data Science**  
+**National Taiwan Ocean University**  
+**B.S. in Electrical Engineering**  
 - **Work Experience:** Test Engineering Intern at HTC, Freelance Web Developer  
 - **Skills:** Python, Arduino, HTML/CSS, JavaScript, SQL, Git, etc.  
 - **Certificates:** Google Data Analytics, Microsoft Azure AI Fundamentals
