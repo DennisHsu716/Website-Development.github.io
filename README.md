@@ -3,7 +3,7 @@
 A professional, responsive personal portfolio website built with HTML and CSS, featuring a modern design and clear navigation. This site showcases my skills, experience, and projects, and provides direct contact options.
 
 ## 🔗 Live Preview
-[View Live Website](https://bit.ly/Dennishsu))  
+[View Live Website] (https://bit.ly/Dennishsu))  
 
 ---
 
@@ -15,7 +15,7 @@ A professional, responsive personal portfolio website built with HTML and CSS, f
 - Clean layout with centered content and responsive design
 
 ### 👤 About Me
-- **University of Southern California:**
+- **University of Southern California**  
 M.S. in Electrical & Computer Engineering - Machine Learning and Data Science  
 - **National Taiwan Ocean University**  
 B.S. in Electrical Engineering  
