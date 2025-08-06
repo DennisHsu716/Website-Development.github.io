@@ -19,9 +19,9 @@ A professional, responsive personal portfolio website built with HTML and CSS, f
 M.S. in Electrical & Computer Engineering - Machine Learning and Data Science  
 - **National Taiwan Ocean University**  
 B.S. in Electrical Engineering  
-- **Work Experience:** Test Engineering Intern at HTC, Freelance Web Developer  
-- **Skills:** Python, Arduino, HTML/CSS, JavaScript, SQL, Git, etc.  
-- **Certificates:** Google Data Analytics, Microsoft Azure AI Fundamentals
+- **Work Experience:** R&D Test Engineer: Intern at HTC  
+- **Skills:** Python, Machine Learning, Arduino, HTML/CSS, JavaScript, SQL, Git, MATLAB, Data Analytics, Java, ADB (Android Debug Bridge), Unity (C#), C++  
+- **Certificates:** Google Analytics Certification, LinkedIn Learning Certificate of Completion, Datacom Software Development Job Simulation, Skyscanner Front-End Software Engineering Job Simulation, Wells Fargo Software Engineering Job Simulation  
 
 ### 💼 Projects
 - **Python Arcade Shooter Game:** Built with Pygame, includes scoring and real-time control  
