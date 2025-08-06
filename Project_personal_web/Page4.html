@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="./Page1.html">Home</a></li>
+        <li><a href="./Page2.html">About Me</a></li>
+        <li><a href="./file/CV_ShaoHuan_Hsu.pdf" download="Dennis_CV">Resume</a></li>
+        <li><a href="./Page3.html">Projects</a></li>
+        <li><a href="./Page4.html">Contact Me</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+    <h2 id="contact-title">Contact Me</h2>
+    <div class="contact-wrapper">
+        
+        <!-- 左邊聯絡資訊 -->
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +1 510-890-1289</p>
+            <p><strong>Email:</strong> shaohuang.hsu@gmail.com</p>
+            <p>Feel free to reach out for collaborations, project discussions, or opportunities!</p>
+        </div>
+
+        <!-- 右邊表單 -->
+        <form method="post" name="contact-form" id="myForm" action="https://script.google.com/macros/s/AKfycbxtYp7ufbyX4aWTaV0EarOUTHys3mvmx0G23uYEDIEjSOoz4tpFvpcY2zoZNV71JNHc/exec">
+            <input type="text" placeholder="Your Name" id="name" name="name" required>
+            <input type="email" placeholder="Your Email" id="email" name="email" required>
+            <textarea name="subject" id="subject" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" value="Submit" class="btn3" id="submitButton" >Send</button>
+        </form>
+    </div>
+</section>
+
+<!-- Foooter -->
+<!-- Footer Section with Contact Info and Socials -->
+<section class="footer" id="footer">
+  <div class="social">
+    <h1>Phone</h1>
+    <p>+1 510-890-1289</p>
+  </div>
+
+  <div class="social">
+    <h1>Email</h1>
+    <p>shaohuang.hsu@gmail.com</p>
+  </div>
+
+  <div class="social">
+    <h1>Follow Me</h1>
+    <div class="icons">
+      <a href="https://linkedin.com/in/DennisHsu-a7b11831a" class="pic" target="_blank">
+        <i class="fa-brands fa-linkedin" style="font-size: 30px;"></i>
+      </a>
+      <a href="https://github.com/DennisHsu716" class="pic" target="_blank">
+        <i class="fa-brands fa-github" style="font-size: 30px;"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+</body>
+<script src="./script.js"></script>
+</html>

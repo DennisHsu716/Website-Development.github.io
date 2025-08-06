@@ -1,0 +1,341 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* 讓主要內容撐開，推 footer 到底 */
+}
+
+
+/* 全站背景與字體 */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 導航列 */
+nav {
+    background-color: #222; /* 深灰 */
+    padding: 35px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #f0c14b; /* 金色 */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* 容器 */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Contact Me 頁面放大版本 */
+#contact-title {
+    font-size: 2.5rem;      /* 標題更大 */
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+/* 表單整體放大 */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;       /* 表單寬度加大 */
+    margin: 0 auto;         /* 置中 */
+}
+
+form input, 
+form textarea {
+    font-size: 1.2rem;      /* 字體加大 */
+    padding: 15px;          /* 內距加大 */
+    border: 1px solid #bbb;
+    border-radius: 8px;
+}
+
+form textarea {
+    min-height: 150px;      /* 讓留言框更高 */
+}
+
+form button {
+    font-size: 1.2rem;      /* 按鈕字體加大 */
+    padding: 14px;
+    background-color: #f0c14b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d4a637;
+}
+
+/* Contact Me 雙欄布局 */
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* 左邊聯絡資訊樣式 */
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    font-size: 1.1rem;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 右邊表單寬度 */
+.contact-wrapper form {
+    flex: 2;
+    min-width: 300px;
+}
+
+
+
+/* 標題 */
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* 卡片 */
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 技能列表 */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list span {
+    background-color: #f0c14b;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* 專案卡片 */
+.project-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #f0c14b;
+}
+
+/* 聯絡表單 */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f0c14b;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d4a637;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer .social {
+  flex: 1;
+  min-width: 220px;
+  margin: 10px;
+}
+
+.footer .social h1 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #f0c14b;
+}
+
+.footer .social p {
+  font-size: 1rem;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.footer .icons a {
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer .icons a:hover {
+  color: #f0c14b;
+}
+
+/* Font Awesome icons (if not already included) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+
+
+/* RWD */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* About Me & Projects 卡片加大 */
+.card, .project-card {
+    padding: 25px;
+    font-size: 1.05rem;
+}
+
+.project-card {
+    margin-bottom: 25px;
+}
+
+/* Home 頁面照片區 */
+/* Home 頁面照片 + 文字垂直置中 */
+.home-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;       /* 垂直置中 */
+    justify-content: center;   /* 水平置中 */
+    gap: 30px;
+    min-height: 80vh;          /* 區塊高度至少占螢幕 80% */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.home-photo {
+    flex: 1;
+    min-width: 250px;
+}
+
+.home-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.home-text {
+    flex: 2;
+    min-width: 300px;
+}
+
+/* 放大首頁圖片 */
+.home-photo img {
+    max-width: 350px;   /* 桌機圖片最大寬度從原本 100% 改成固定較大尺寸 */
+    width: 100%;
+}
+
+/* 放大首頁文字 */
+.home-text h1 {
+    font-size: 2.5rem;  /* 原本約 2rem，可調大 */
+    margin-bottom: 15px;
+}
+
+.home-text p {
+    font-size: 1.2rem;  /* 原本 1rem，字大一些 */
+    line-height: 1.8;   /* 增加行距讓可讀性更好 */
+}
+
+/* 手機排版 */
+@media (max-width: 768px) {
+    .home-wrapper {
+        flex-direction: column;
+        text-align: center;
+        min-height: auto; /* 手機版不用固定高度 */
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .home-photo img {
+        max-width: 250px; /* 手機版適度縮小 */
+    }
+
+    .home-text h1 {
+        font-size: 2rem;
+    }
+
+    .home-text p {
+        font-size: 1.05rem;
+    }
+}
