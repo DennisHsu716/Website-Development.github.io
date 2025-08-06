@@ -28,11 +28,6 @@ B.S. in Electrical Engineering
   Skyscanner Front-End Software Engineering Job Simulation
   Wells Fargo Software Engineering Job Simulation  
 
-### 💼 Projects
-- **Python Arcade Shooter Game:** Built with Pygame, includes scoring and real-time control  
-- **Aquarium Automation System:** Arduino-based system with real-time sensors and alerts  
-- **E-Commerce Website:** Responsive web storefront using HTML/CSS/JS
-
 ## 💼 Projects
 
 ### 🖥️ Website Development
